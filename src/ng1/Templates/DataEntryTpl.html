@@ -1,0 +1,11 @@
+<p>Please fill out this form:</p>
+<div class="hc-field-control" data-ng-repeat="field in ctrl.getFields()">
+  <label>{{ field.name }}</label>
+  <div
+    hc-form-field
+    hc-field-definition="field.fieldDefinition"
+    hc-record="ctrl.model"
+  ></div>
+</div>
+<button ng-click="ctrl.submit()">Submit</button>
+<pre ng-if="ctrl.result"><code>{{ctrl.result | json}}</code></pre>

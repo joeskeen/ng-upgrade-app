@@ -12,7 +12,13 @@ depending on the target data type (for example, for a `varchar` data type it dis
 box; for a `bit` data type it displays a checkbox). Using the existing setup of the hybrid
 application, convert the `hcFormField` directive to an Angular component.
 
-Please push your implementation to a Github repository and provide a link to the recruiter you
+## Instructions
+
+1. Fork this repository
+2. Upgrade the `hcFormField` AngularJS directive to an Angular component
+3. Leave the AngularJS Hybrid app in place (this is a simulation of you working in a larger Hybrid Angular/AngularJS project)
+4. Ensure your component is well tested
+5. Please push your implementation to a Github repository and provide a link to the recruiter you
 are working with. Your assessment will be reviewed and graded prior to an interview.
 
 ## Limit of Scope

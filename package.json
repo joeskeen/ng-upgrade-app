@@ -18,7 +18,7 @@
     "angular-ui-router": "^1.0.22",
     "core-js": "2.6.9",
     "font-awesome": "4.7.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.21",
     "npm-font-open-sans": "1.1.0",
     "rxjs": "6.5.2",
     "zone.js": "0.9.1"
